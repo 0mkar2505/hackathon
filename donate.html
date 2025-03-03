@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Logo.png" alt="NGO Logo" class="logo">
+        <h1>Make a Donation</h1>
+        <nav1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav1>
+    </header>
+    <section id="donate">
+        <h2>Donate to Our Cause</h2>
+        <div class="donation-container">
+            <form id="donationForm">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+    
+                <label for="amount">Donation Amount (₹):</label>
+                <input type="number" id="amount" required>
+    
+                <button type="submit" class="donate-button">Donate Now</button>
+            </form>
+        </div>
+    </section>
+    <section id="recent-donations">
+        <h2>Recent Donations</h2>
+        <ul id="donationList">
+            <li>Loading donations...</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>© 2025 NGO Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

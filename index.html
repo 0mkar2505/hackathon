@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fight Malnutrition India</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <img src="Logo.png" alt="NGO Logo" class="logo">
+        <h1>FIGHT MALNUTRITION INDIA</b></h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#causes">Causes</a>
+        <a href="#programs">Programs</a>
+        <a href="#donate">Donate</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <div class="about-text">
+            <h2>About Us</h2>
+            <ul>
+                <li>We are a non-profit organization dedicated to fighting malnutrition.</li>
+                <li>Providing nutritious food to underprivileged communities.</li>
+                <li>Ensuring better healthcare and child development programs.</li>
+                <li>Empowering families through education and awareness.</li>
+                <li>Serving communities across India since 1990.</li>
+            </ul>
+        </div>
+        <div class="about-img">
+            <img src="AboutUs.jpg" alt="Helping Hands">
+        </div>
+    </section>    
+    <section id="causes">
+        <div class="causes-text">
+            <h2>Causes of Malnutrition</h2>
+            <ul>
+                <li><strong>Inadequate Dietary Intake</strong>Lack of balanced nutrition, reliance on staple foods, and insufficient protein and micronutrient-rich diets.</li>
+                <li><strong>Micronutrient Deficiencies (Hidden Hunger)</strong>Widespread deficiencies in iron, iodine, vitamin A, B12, and D, leading to anemia, stunting, and weakened immunity.</li>
+                <li><strong>Maternal Malnutrition & Poor Infant Feeding Practices</strong>Underweight mothers, low birth weight babies, lack of exclusive breastfeeding, and delayed introduction of nutritious complementary foods.</li>
+                <li><strong>Poor Sanitation & Recurrent Infections</strong>Unsafe drinking water, open defecation, and frequent diarrhea reduce nutrient absorption and worsen malnutrition.</li>
+                <li><strong>Ineffective Implementation of Nutrition Programs</strong>Leakages, poor-quality food distribution, and lack of real-time monitoring in government schemes like PDS, Mid-Day Meal, and ICDS.</li>
+            </ul>
+        </div>
+        <div class="causes-img">
+            <img src="Cause.png" alt="Malnutrition Causes">
+        </div>
+    </section>
+    
+    <section id="programs">
+        <h2>Our Programs</h2>
+        <div class="program-container">
+            <button class="prev" onclick="prevProgram()">&#10094;</button>
+            <div class="program-content">
+                <img id="program-image" src="Program" alt="Program Image">
+                <h3 id="program-title">Loading...</h3>
+                <p id="program-description"></p>
+                <ul id="program-impact"></ul>
+            </div>
+            <button class="next" onclick="nextProgram()">&#10095;</button>
+        </div>
+    </section>
+    
+    
+    <section id="donate">
+        <h2>Make a Difference</h2>
+        <button class="donate" onclick="donateNow()">Donate Now</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@fightmalnutritionindia.org</p>
+        <p>Phone: +91 9876543210</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Fight Malnutrition India. All Rights Reserved.</p>
+        <p><a href="admin.html" style="color: red; text-decoration: none;">Admin Panel</a></p>
+    </footer>
+</body>
+</html>

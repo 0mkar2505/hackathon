@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Admin Login</h2>
+        <nav1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav1>
+    </header>
+    <form id="adminLoginForm">
+        <label>Username:</label>
+        <input type="text" id="adminUsername" required>
+
+        <label>Password:</label>
+        <input type="password" id="adminPassword" required>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <h2>Donation Records</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Amount (₹)</th>
+                <th>Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="donationTable">
+            <tr><td colspan="5">Login to view data</td></tr>
+        </tbody>
+    </table>
+
+    <script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Montserrat:wght@700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 150px; 
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    display: flex;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff5722;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    z-index: 1002;
+}
+
+
+header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+header p {
+    font-size: 16px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    width: 100px;
+    margin-right: 10px;
+    height: auto;
+    border-radius: 5px;
+}
+
+nav {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background-color: #ff5722; 
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1001; 
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #28a745;
+}
+
+section {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.donate {
+    background: #ff5722;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#about, #causes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+#causes {
+    flex-direction: row-reverse;
+}
+
+.about-text, .causes-text {
+    width: 50%;
+    text-align: left;
+}
+
+.about-text h2, .causes-text h2 {
+    font-size: 52px;
+    margin-bottom: 15px;
+    color: #ff5722;
+    font-weight: 600;
+}
+
+.about-text ul, .causes-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-text ul li, .causes-text ul li {
+    font-size: 18px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    line-height: 1.6;
+}
+
+.about-text ul li strong, .causes-text ul li strong {
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.about-text ul li::before, .causes-text ul li::before {
+    content: "✔";
+    color: #ff5722;
+    font-weight: bold;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.about-img, .causes-img {
+    width: 45%;
+    text-align: center;
+    display: flex;
+}
+
+.about-img img, .causes-img img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.program-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    position: relative;
+    padding: 20px;
+}
+
+.program-content {
+    text-align: center;
+    max-width: 60%;
+    background: rgba(255, 87, 34, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    min-height: 350px;
+}
+
+.program-content img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.program-container button {
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    color: #ff5722;
+    transition: 0.3s;
+}
+
+.program-container button:hover {
+    color: #d84315;
+}
